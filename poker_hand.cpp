@@ -1,5 +1,3 @@
-
-
 //program for a poker hand just using basic concepts
 #include <iostream>
 using namespace std;
