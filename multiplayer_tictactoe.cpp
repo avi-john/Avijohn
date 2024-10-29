@@ -18,7 +18,7 @@ int main() {
             board[player_choice - 1] = 'X';
             player_playes1[player_choice - 1] = 1;
 
-            if (checking(player_playes1)) {
+            if (checking(player_playes1)==1) {
                 display(board);
                 cout << "Player X wins!\n";
                 return 0;
@@ -29,7 +29,7 @@ int main() {
             board[player_choice - 1] = 'O';
             player_playes2[player_choice - 1] = 1;
 
-            if (checking(player_playes2)) {
+            if (checking(player_playes2)==1) {
                 display(board);
                 cout << "Player O wins!\n";
                 return 0;
