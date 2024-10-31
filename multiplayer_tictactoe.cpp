@@ -4,7 +4,7 @@ int checking(int player_playes[9]);
 void display(char board[9]);
 int player_plays(int &player_choice, char board[9]);
 int main() {
-    char board[9] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    char board[9] = {'0', '1', '2', '3', '4', '5', '6', '7', '8'};
     int rounds = 1;
     int player_choice;
     int player_playes1[9] = {0}, player_playes2[9] = {0};
